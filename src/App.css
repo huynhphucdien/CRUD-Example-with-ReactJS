@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgb(142, 129, 224) 0%,
+    rgb(169, 175, 224) 100%
+  );
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 20px auto;
+  padding: 0;
+  padding: 8px 0px 8px 8px;
+  border-radius: 4px;
+  border: 2px solid #805ec2;
+  outline: none;
+  width: 85%;
+  background: transparent;
+  color: #fff;
+  text-align: left;
+}
+/* .edit-del {
+  width: 22%;
+  align-self: flex-end;
+  flex-shrink: 0;
+} */
+.edit-btn {
+  margin: 0 8px;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(137, 97, 218) 0%,
+    rgb(165, 104, 202) 100%
+  );
+  color: #fff;
+}
+
+.del-btn {
+  margin: 0 8px;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(137, 97, 218) 0%,
+    rgb(165, 104, 202) 100%
+  );
+  color: #fff;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  min-height: 600px;
+  background: #d4d0bc62;
+  text-align: center;
+  margin: 100px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+.add-todos {
+  width: 85%;
+  margin: 0 auto;
+}
+.update-todos {
+  width: 85%;
+  margin: 15px auto;
+}
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(137, 97, 218) 0%,
+    rgb(165, 104, 202) 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+  width: 22%;
+}
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #805ec2;
+  outline: none;
+  width: 78%;
+  background: transparent;
+  color: #fff;
+}
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 24px;
+}
